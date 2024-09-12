@@ -9,7 +9,7 @@ sudo apt-get insatll ccache
 sudo apt-get insatll make
 sudo apt-get insatll curl
 sudo apt-get insatll neofetch
-sudo snap install code --classic
+# sudo snap install code --classic
 
 git config --global user.name "WhaleFall" 
 git config --global user.email "166845494@qq.com" 

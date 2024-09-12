@@ -46,7 +46,7 @@ if git rev-parse --is-inside-work-tree > /dev/null 2>&1 && git remote -v | grep 
     # echo "Create symlinks"
     for file in "${files[@]}"; do
         if [ ! -L "$HOME/$file" ]; then
-            ln -s "$file" "$HOME/$file"
+            ln -s "$dst/$file" "$HOME/$file"
             echo "create symlink:"
             ls -l "$HOME/$file"
         else
@@ -54,6 +54,11 @@ if git rev-parse --is-inside-work-tree > /dev/null 2>&1 && git remote -v | grep 
         fi
     done
     echo "Done"
+
+    source ~/.vimrc
+    tmux source ~/.tmux.conf
+    source ~/.zshrc
+    zsh
 else
     echo "install.sh not in the repo"
 fi

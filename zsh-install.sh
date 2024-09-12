@@ -1,9 +1,9 @@
 # 安装 zsh
 sudo apt install zsh
 # 确认 zsh 成功安装
-which zsh
+# which zsh
 # 设置为默认 Shell
-chsh -s /usr/bin/zsh
+# chsh -s /usr/bin/zsh
 # 克隆项目到“~/”位置
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 # 将配置文件复制到指定位置
