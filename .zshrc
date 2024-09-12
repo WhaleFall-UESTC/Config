@@ -148,6 +148,8 @@ alias grv="git remote -v"
 alias gra="git remote add"
 alias grao="git remote add origin"
 alias gcm="git commit -m"
+alias gpom="git push origin master"
+alias gp="git push"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
