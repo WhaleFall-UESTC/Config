@@ -137,6 +137,18 @@ alias ta="tmux a"
 alias tls="tmux ls"
 alias riscv64-gdb="riscv64-unknown-elf-gdb"
 
+alias rc="cd ~/.src"
+
+alias ga="git add"
+alias gaa="git add --all"
+alias gs="git status"
+alias glog="git log --all --graph --decorate"
+alias gr="git remote"
+alias grv="git remote -v"
+alias gra="git remote add"
+alias grao="git remote add origin"
+alias gcm="git commit -m"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
